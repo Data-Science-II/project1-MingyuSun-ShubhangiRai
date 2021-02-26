@@ -20,7 +20,7 @@ runMain scalation.analytics.QuadRegressionstepwise
 both QuadX Regression and Stepwise Regressionn for QuadX Regression are run.
 This follows the example of RegressionTest11 and other examples inside scalation_1.6.
 
-To with other data sets, use
+To with other data sets, make sure the corresponding data files are under scalation_1.6//data/analytics, ( we provide some files for you to download ) then use
 runMain scalation.analytics.dataset
 To use data sets that are already coded in scalation, uncommend line 28-30 in project1.scala
 //import ExampleBPressure._
@@ -39,3 +39,6 @@ stepwise_selection(X,y, slin, slout)
 We also provide an alternative way to do feature selection with SequentialFeatureSelector from mlxtend.feature_selection, though Mingyu didn't try this out due to the mlxtend package.
 
 The Third part was written by Shubhangi Rai
+
+As for the report, the current report is from Mingyu Sun, Shubhangi Rai will add the analysis with
+
