@@ -1,5 +1,5 @@
 # project1-MingyuSun-ShubhangiRai
-Download analytics and substitute the original analytics under scalation_1.6/scalation_modeling/src/main/scala/scalation with this. Alternatively you can only download project1.scala and PredictorMat.scala, replace the PredictorMat.scala and add project1.scala under /analytics.
+Download project1.scala and PredictorMat.scala, replace the PredictorMat.scala and add project1.scala under scalation_1.6/scalation_modeling/src/main/scala/scalation/analytics.
 The whole project1 should be run inside scalation_1.6, with the following code
 
 cd scalation_1.6 
