@@ -1,4 +1,21 @@
 # project1-MingyuSun-ShubhangiRai
+
+Group Members-  Shubhangi Rai and Mingyu Sun
+
+Shubhangi Rai- 1) Project done in Scalation - Regression.scala
+                    2) Stepwise Regression, Lasso and Ridge Regression done on Python -                            Stepwise_regression_Lasso_Ridge.py
+
+Separate report done for the work done - Report_ShubhangiRai
+
+Mingyu Sun:       1) Project done in Scalation 
+                    2) Forward Selection , Backward Selection and Stepwise Regression, done on Python
+
+Separate report done for the work done.
+
+
+
+Mingyu Sun- 
+
 Download project1.scala and PredictorMat.scala, replace the PredictorMat.scala and add project1.scala under scalation_1.6/scalation_modeling/src/main/scala/scalation/analytics.
 The whole project1 should be run inside scalation_1.6, with the following code
 
@@ -42,3 +59,96 @@ The third part was written by Shubhangi Rai
 
 As for the report, the current report ( report_from_MingyuSun ) is from Mingyu Sun, Shubhangi Rai will add the analysis with AIC, she may also change some parts with Stepwise Regression or modify some other part. Shubhangi Rai will also add some other data sets.
 
+
+
+Shubhangi Rai:
+
+To access Scalation and Python Projects, Data and Report_ShubhangiRai,
+
+Navigate to Regression_Shubhangi:
+
+Data- .csv files for all the 5 data sets 
+
+lib - jar files are present under this
+
+src->  regression.scala for scala project source code
+src->  stepwise_regression_lasso_ridge.py for python project source code
+
+
+1. SCALA
+
+Configuration to Setup:
+    Install Scala Version 2.12.10
+    Library for scalation are provided in folder lib(.jar)
+            1. Modeling 
+            2. Statistics
+            3. Mathematics
+            4. Database
+    
+
+
+
+How to run?
+
+Download ProjectRegression Dataset is provided in folder data
+Locate to regression.scala file
+$ sbt > compile 
+Or can use run regression.scala 
+Libraries are already included and built  console will prompt to choose dataset first After choosing dataset -> select model to run
+
+
+
+
+Data Sets used- Downloaded data sets from UCI Machine Learning Repository
+
+1.AutoMPG
+2.Concrete
+3.Beijing PM2.5
+4.Real Estate
+5.Computer Hardware
+
+
+Changes were made in classes:
+-PredictorMat.scala for Stepwise regression and 
+Fit.scala to compute AIC values.
+
+
+Following Regression Techniques were implemented for Forward Selection, Backward Selection , Stepwise Selection
+
+Multiple Linear Regression
+Quadratic Regression
+QuadX Regression
+Cubic Regression
+CubicX Regression 
+
+ Lasso and Ridge Regression were also implemented as an alternative to Best Subset selection  Regression.
+
+
+
+2. PYTHON:
+
+Configuration to Setup:
+        Install Python Version 3.7
+        Libraries included and needed to be installed in Python
+            1. Scikit learn
+            2. Pandas
+            3. NumPy
+
+How to run:
+    Open terminal
+    Run jupyter notebook
+    Open “.ipynb” file from jupyter notebook
+    
+
+
+My teammate Mingyu Sun implemented Forward Selection, Backward Selection.
+
+I, Shubhangi Rai implemented stepwise regression for MLR , Quadratic, and Cubic Regression Techniques which could be run on the stepwise.ipynb file
+
+Lasso and Ridge Regression were also implemented on Python which could be run on Stepwise_regression_Lasso_Ridge.py 
+
+
+
+
+
+Report done by Shubhangi Rai - Report_ShubhangiRai
