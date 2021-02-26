@@ -5,12 +5,12 @@ Group Members-  Shubhangi Rai and Mingyu Sun
 Shubhangi Rai- 1) Project done in Scalation - Regression.scala
                     2) Stepwise Regression, Lasso and Ridge Regression done on Python -                            Stepwise_regression_Lasso_Ridge.py
 
-Separate report done for the work done - Report_ShubhangiRai
+Report done for the work done - Report_ShubhangiRai
 
 Mingyu Sun:       1) Project done in Scalation 
                     2) Forward Selection , Backward Selection and Stepwise Regression, done on Python
 
-Separate report done for the work done.
+Report done for the work done.
 
 
 
@@ -149,6 +149,4 @@ Lasso and Ridge Regression were also implemented on Python which could be run on
 
 
 
-
-
-Report done by Shubhangi Rai - Report_ShubhangiRai
+Report appended with work done by Shubhangi Rai - Report_ShubhangiRai
